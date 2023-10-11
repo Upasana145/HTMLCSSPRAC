@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gallery_top {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.gallery_desc ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gallery_desc li {
+  width: 50%;
+}

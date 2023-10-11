@@ -1,0 +1,122 @@
+*me-auto ms-auto my-auto
+
+The me and ms classes in Bootstrap 5 are used to ad margin to the right and the left sides
+of an element, respectively
+
+*Div with class.container
+*Div with class.container-fluid
+*text-capitalize
+To begin, let's use GitHub data to establish which of the two Css framework is more popular.
+On GitHub, Tailwind CSS has 3.1k forks and 61.1k stars, while Bootstrap has 77.3k forks and 
+160k starts.
+
+The col-12 class is a shorthand class that can be used to set the column width to 
+12 columns.  This is equivalent to using the following classes:
+<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+This column will take up 100% of the width of its container
+</div>
+
+*bg-main bg-color hero-section
+*container
+*row 
+*col-12 
+*text-center
+*text-capitalize
+*ata-bs-toggle="tooltip" data-bs-title="Another one here too"
+
+date:- 03/10/2023
+
+*text-capitalize
+*fw-bolder
+*max-width: 100%;
+*height: auto;
+*width: 30%;
+*border-radius: 2rem;
+
+
+*display: grid;
+
+notes:-
+
+The display property in CSS is used to specify how an HTML element should be displayed in the layout of a web page. When you use display: grid;, you are defining that the element should be treated as a grid container. This allows you to create grid layouts by organizing the child elements (grid items) within the container into rows and columns.
+Here's a basic example of how to use the display: grid; property:
+*.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
+  grid-gap: 10
+}
+ *btn btn-primary
+ *px-5 py-2
+
+
+*w-100 text-md-start
+
+
+The code `w-100 text-md-start` appears to be using CSS classes or utility classes, likely from a CSS framework like Bootstrap or a similar framework. Let's break down each part:
+
+1. `w-100`:
+   - This class is likely related to width. In many CSS frameworks like Bootstrap, classes with the `w-` prefix are used to set the width of an element.
+   - `w-100` typically sets the width to 100%, which means the element will take up the full width of its parent container. This is often used to create a block-level element that spans the entire width of its container.
+
+2. `text-md-start`:
+   - This class is related to text alignment. The `text-` prefix is commonly used in CSS frameworks to set text alignment.
+   - `text-md-start` likely sets the text alignment to "start" for medium-sized (md) screens. In the context of text alignment:
+     - "start" typically means left-aligned for languages that read from left to right (like English).
+     - For right-to-left languages (like Arabic or Hebrew), "start" would mean right-aligned.
+     - On smaller screens or when no specific size is defined, it may default to the standard text alignment.
+
+So, in summary, `w-100` sets the width to 100%, making the element span the full width of its container, and `text-md-start` sets the text alignment to the start (left-aligned for left-to-right languages) on medium-sized screens. These classes are often used to apply responsive styles that adapt to different screen sizes.
+
+
+*mt-3 mb-5 para-width text-light-pink
+
+*text-white
+*font-weight
+
+*.nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+
+
+The CSS code you provided is a style rule that affects the appearance of links with the class "nav-link" when they are in a hovered state (`:hover`). Let's break down the rule step by step:
+
+1. `.nav-link:hover`:
+   - This is a CSS selector. It selects all elements with the class "nav-link" that are in a hovered state. The `:hover` pseudo-class is used to apply styles when the mouse pointer is placed over the element.
+
+2. `color: var(--secondary-color) !important;`:
+   - This is the declaration block associated with the selector `.nav-link:hover`. It specifies how the element should look when it's being hovered.
+   - `color` is a CSS property that sets the text color of the element.
+   - `var(--secondary-color)` is a reference to a CSS custom property (also known as a CSS variable) called "--secondary-color." Custom properties allow you to define and reuse values throughout your CSS. In this case, it sets the text color to the value of "--secondary-color."
+
+   - `!important` is a CSS rule that gives this style declaration the highest specificity. When `!important` is used, it overrides any conflicting styles, even those with higher specificity, making this style the most important and difficult to override.
+
+So, when a link with the class "nav-link" is hovered over, this CSS rule will change the text color to the value defined in the custom property "--secondary-color." The `!important` flag ensures that this style takes precedence over other styles that might try to change the text color, even if they have higher specificity.
+
+
+
+py-5
+text-white
+mb-5
+font-size: 1.15rem !important;
+letter-spacing: 0.03rem;
+word-spacing: 0.1rem;
+
+
+//SERVICE SECTION STARTS
+
+
+container text-center common-title fw-bold
+w-25 mx-auto
+text-center card-box rounded-2 p-5
+figures
+
+
+
+
+
+
+
+
+
+
+

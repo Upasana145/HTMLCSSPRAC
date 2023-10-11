@@ -1,0 +1,99 @@
+Learn CSS in 20 minutes
+types of selector :-
+element selector
+ID selector
+Class selector
+
+color: #ffffff
+#ffffff --> red green blue 
+scale from 0 to ff 
+ff = 255 in decimal
+
+color: rgba(255,255,0,.5)
+color: hsl(0,100%,50%,0);
+huge saturation likeness
+
+box-model property
+pixels:- the unit that we use most the time when defining content sizes and is going to be 
+a set fixed width on every size screen 
+percentage:- whatever percentage of the given width that the object has inside of its parent
+so if we make this width 10% this box wil be 10% of the width of the screen
+em :- em is mostly used for fonts and font related situations like padding around fonts and it
+is going to be it scales off of the actual font size so if your font size is 16px then 1em 
+equal 16px 
+rem:- another type of scale i.e rem scales off the root of your document 
+
+
+
+
+//kelvin Powell--->learn flex shrink
+
+flex-shrink = 1??
+
+display : flex
+width: max-width
+diplay: inline 
+display: block
+when display flex is there then display inline and display block has no effect
+width: min-content
+width: max-content
+flex-grow:0 
+flex-shrink:1
+flex-wrap:wrap;
+flex-basis:300px
+justify-content: flex-start
+justify-content: flex-end 
+justify-content: space-between 
+justify-content: space-around
+justify-content: space-evenly
+align-item: stretch (default)
+align-item: flex-start
+align-item: flex-end
+align-item: center
+align-self:stretch
+align-self: flex-start
+align-self: flex-end
+align-self: stretch
+position: absolute
+top:0
+bottom:0
+left: 0
+right: 50%
+position: relative
+z-index: -1
+
+
+
+
+
+
+Date:- 09/10/2023
+
+.overlay::before 
+.overlay::after 
+navigation and pagination
+swiper --> demo--> nevigation , pagination
+infinite loop
+
+
+
+date : 11/10/2023
+
+memorize what m taught is enough 1st if time left then study next but revise past things only
+
+task4
+for padding :- remove p-0 given to column
+for that i don't need to give top, bottom , left, right 
+
+task 5
+
+
+
+
+
+
+
+
+
+
+

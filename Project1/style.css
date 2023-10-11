@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+nav {
+  font-family: "ubuntu", sans-serif;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: blanchedalmond;
+  align-items: center;
+}
+
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.container {
+  height: 75vh;
+}
+.bottom {
+  position: sticky;
+  height: 130px;
+  color: white;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column;  */
+}
+#myProgressBar {
+  width: 150vh;
+}
+
+.add {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.add span {
+  margin-right: 10px;
+}
+.addchild .addhead {
+  display: flex;
+  align-items: center;
+  background-color: green;
+}
+
+.addchild .addhead {
+  font-size: 50px;
+}
+.addchild .addheadcontent {
+  font-size: 20px;
+}

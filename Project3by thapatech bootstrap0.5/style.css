@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300;500&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+
+:root {
+  --bs-dark-color: #1a1d20;
+  --bs-main-color: #fff;
+  --bs-primary-color: #c6c6c6;
+  --secondary-color: #29a9fd;
+  --bs-supporting-color: #1a1d20;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Varela Round", sans-serif;
+  color: var(--bs-dark-color);
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  line-height: 3rem;
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--bs-dark-color);
+  letter-spacing: 0.07rem;
+  line-height: 1.55rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* navbar style */
+button,
+a {
+  font-size: 1.15rem !important;
+  letter-spacing: 0.03rem;
+  word-spacing: 0.1rem;
+}
+.common-heading {
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 0.01rem !important;
+}
+.common-title {
+  margin-bottom: 4.2rem;
+}
+
+.nav-link {
+  color: var(--bs-main-color);
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+
+/* Hero Section Start */
+.hero-section .container {
+  display: grid;
+  place-content: center;
+  height: inherit;
+}
+.bg-color {
+  background-color: var(--bs-dark-color);
+}
+.text-grey {
+  color: var(--bs-primary-color);
+}
+
+.bg-main {
+  height: 80vh;
+  position: relative;
+}
+
+.hero-video--section {
+  height: auto;
+  width: 26rem;
+  border-radius: 2rem;
+}
+
+.custom-shape-divider-bottom-1696395947 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1696395947 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1696395947 .shape-fill {
+  fill: #ffffff;
+}
+
+/* service section */
+
+.services-section {
+  padding: 6rem 0 3rem 0 !important;
+}
+
+.icon-span {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--secondary-color);
+  color: var(--bs-main-color);
+}
+.card-box:hover {
+  /* box-shadow: #1a1d20; */
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px; */
+  background-color: rgba(149, 157, 165, 0.2);
+}
+
+.more-info-section {
+  background: linear-gradient(rgba(22, 22, 22, 0.9), rgba(22, 22, 22, 0.9)),
+    url("./Images/PHLEARN-Parallax-header.webp");
+
+  /* background-image: url("./Images/PHLEARN-Parallax-header.webp"); */
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  overflow: hidden;
+}
+.more-info-section .img-section {
+  position: relative;
+}
+.more-info-section .img-section img {
+  /* position: absolute;
+  left: 0; */
+  width: 70%;
+}
